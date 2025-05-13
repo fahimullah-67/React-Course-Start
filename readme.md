@@ -33,9 +33,7 @@ Start React Course From YouTube!
    Link your local repository to GitHub and push your code:
 
    ```bash
-   git remote add origin <repository-url>
-   git branch -M main
-   git push -u origin main
+
    ```
 
 6. **Verify on GitHub**  
