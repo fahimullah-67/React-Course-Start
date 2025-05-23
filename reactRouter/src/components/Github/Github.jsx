@@ -3,6 +3,8 @@ import { useLoaderData } from "react-router-dom";
 
 function Github() {
   const data = useLoaderData();
+
+  // With out using loader
   //   const [data, setData] = useState([]);
   //   const token = import.meta.env.VITE_GITHUB_TOKEN;
 
@@ -59,6 +61,4 @@ export const githubInfoLoader = async () => {
     },
   });
   return response.json();
-
-  if (!response) console.log();
 };
